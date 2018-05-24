@@ -1,1 +1,35 @@
+/**********NAVIGATION*************/
 
+.navigation {
+    height: 750px;
+    background-image: url('../img/coffee-computer-cup-114907.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.brand {
+	float: left;
+	width: 25%;
+	height: 150px;
+}
+
+.brand img {
+    display: block;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+
+.menu {
+    float: right;
+    padding-right: 250px;
+    padding-top: 100px;
+}
+
+.background {
+    
+}
