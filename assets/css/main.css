@@ -2,36 +2,59 @@
 NAVIGATION
 ***********/
 
-.navigation {
-    height: 750px;
-    background-image: url('../img/coffee-computer-cup-114907.jpg');
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+h1 {
+    color: white;
+    margin-top: 0;
+    text-align: center;
 }
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(49, 45, 45);
+}
+
 
 .brand {
 	float: left;
 	width: 25%;
-	height: 150px;
+    height: 150px;
 }
+
+
 
 .brand img {
     display: block;
-    width: 170px;
-    height: 170px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-top: 35px;
-    margin-left: 35px;
+    margin-top: auto;   
 }
-
 
 .menu {
     float: right;
-    padding-right: 250px;
-    padding-top: 100px;
+	width: 75%;
+    text-align: center;
+   
 }
 
-.background {
-    
+.menu a {
+    line-height: 150px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
 }
+
+/**********
+MAIN
+***********/
+
+.main-hero {
+    background-image: url('../img/coffee-computer-cup-114907.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+
+
