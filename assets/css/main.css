@@ -3,9 +3,9 @@ NAVIGATION
 ***********/
 
 h1 {
-    color: white;
+    color: rgb(48, 45, 45)
     margin-top: 0;
-    text-align: center;
+   
 }
 
 header {
@@ -32,7 +32,7 @@ header {
 }
 
 .menu {
-    float: right;
+    float: left;
 	width: 75%;
     text-align: center;
    
@@ -49,11 +49,51 @@ header {
 MAIN
 ***********/
 
+.main {
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(114, 111, 111)
+    
+}
+
 .main-hero {
-    background-image: url('../img/coffee-computer-cup-114907.jpg');
+    background-image: url('../img/apple-black-coffee-business-461064.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 850px;
+    width: 100%;
+}
+
+
+.projects {
+    overflow: hidden;
+    height: 350px;
+    padding-top: 100px;
+}
+
+.nike {
+    box-sizing: border-box;
+    float: left;
+    padding-left: 70px;
+	padding-right: 70px;
+	width:33.3333%;
+}
+
+.starbucks {
+    box-sizing: border-box;
+	float: left;
+	padding-right: 20px;
+	width:33.3333%;
+}
+
+.ellas {
+    box-sizing: border-box;
+	float: left;
+	padding-right: 70px;
+	width:33.3333%;
 }
 
 
